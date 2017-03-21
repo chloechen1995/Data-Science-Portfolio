@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FFFFFF">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	<style type="text/css">
+      .page-header {
+      background-image:url("../img/datas.png.jpg");
+      color: #FFFFFF;
+      }
+    </style>
+	  <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    height="1%";
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+  </head>
+	
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+	<a href="https://chloechen1995.github.io/" class="btn">Home</a>
+      <a href="chloechen1995@gmail.com" class="btn">Email Me</a>
+    </section>
+	  
+<div id="container">
+        <section id="main_content">
+          {{ content }}
+        </section>
+</div>
+        <hr>
+        <footer>
+        {% if site.github.is_project_page %}
+          {{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
+        {% endif %}
+	  Copyright Jieyi (Chloe) Chen &copy; 2017.
+        </footer>
+  </body>
+</html>
