@@ -2,7 +2,7 @@
 
 About Me:
 
-Jieyi (Chloe) Chen is currently pursuing a B.S. degree in Statistics and Managerial Economics at University of California, Davis. She would like to pursue a career in data science because she believes that any business decisions should be supported by data. In the future, she hopes to get the "sexiest job of the 21st century" where she can apply the statistical models and programming skills to find the trend and make forecast.
+Jieyi (Chloe) Chen is currently pursuing a B.S. degree in Statistics and Managerial Economics with a minor in Computer Science at the University of California, Davis. She is a creative, conscientious and results-driven data storyteller. She believes that data can help business to support and monetize their decisions. She is confident that her data analytics and machine learning skills can bring values to the companies. She is currently seeking an entry-level opportunity in the data & analytics field. Please feel free to email her @chloechen1995@gmail.com with any questions or potential opportunities.
 
 Linkedln:
 (https://www.linkedin.com/in/chloe-chen/)
